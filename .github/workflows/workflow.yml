@@ -14,7 +14,7 @@ jobs:
      node-version: [18.x] #node version required to build
 
    steps:
-    - uses: actions/checkout@v3
+    - uses: r-lib/actions/check-r-package@main
     - run: npm install   # to download all dependecies
     - run: npm run build  # to build the app
     - run: npm test   # for unint test case checking
