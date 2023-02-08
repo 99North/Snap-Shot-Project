@@ -31,3 +31,4 @@ jobs:
           AWS_REGION: 'us-east-1'   # here the default region is set to us-east-1
           SOURCE_DIR: 'build'     #directory name to store the files
 
+
